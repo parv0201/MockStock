@@ -1,4 +1,4 @@
-var rurl = "http://localhost:8000/";
+var rurl = "http://34.216.134.99:8080/";
 
 $(document).ready(function () {
     var token = localStorage.getItem("token");
