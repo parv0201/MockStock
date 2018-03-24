@@ -1,0 +1,123 @@
+@-moz-document url-prefix() {
+    #graph-container {
+        position: fixed;
+        width: 400px;
+        height: 350px;
+    }
+    #display-graph {
+        height: 270px;
+    }
+}
+.scroll-left {
+
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    background:#29353d;
+    color: #ffffff;
+    /*border: 1px solid orange;*/
+    border: none;
+
+}
+
+table.dashboard_table th:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+
+table.dashboard_table th:last-child {
+    border-radius: 0px 10px 0px 0px;
+}
+
+table.dashboard_table tr:last-child td:first-child {
+    border-radius: 0px 0px 0px 10px;
+}
+
+table.dashboard_table tr:last-child td:last-child {
+    border-radius: 0px 0px 10px 0px;
+}
+
+.nav_selected{
+    background: #29353d;
+}
+
+.buy_button{
+
+    border:none;
+    background: none;
+    color: #546E7A;
+}
+
+.sell_button{
+
+    border:none;
+    background: none;
+    color: #546E7A;
+}
+
+
+.buy_button:hover{
+    color: #263238;
+    background: #66BB6A;
+    border-radius: 5px;
+}
+
+.sell_button:hover{
+
+	color: #263238;
+    background: #EF5350;
+    border-radius: 5px;
+}
+
+
+.company_graph{
+
+    margin-top: 20px;
+    height: 390px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.2);
+}
+
+
+
+#myTable td{
+    font-size: 14px;
+    height: 20px;
+    padding: 0px;
+    background: #E0E0E0;
+}
+
+td.table_td_red {
+
+    font-size: 14px;
+    height: 20px;
+    padding: 0px;
+    color:#F44336;
+    background: #FFEBEE;
+}
+
+td.table_td_green {
+
+    font-size: 14px;
+    height: 20px;
+    padding: 0px;
+    color:#4CAF50;
+    background:#E8F5E9;
+}
+
+.news_title{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 0px 5px 0px;
+    color: #ffffff;
+}
+
+#myTable tr td:first-child:hover {
+    cursor: pointer;
+}
+
+.stock:hover{
+	background: #000000;
+}
+

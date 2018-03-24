@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-32x32.png">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/portfolio.js"></script>
+</head>
+<body style="background: #484848;">
+<nav class="navbar navbar-inverse" style="background: #000000; border:none;margin-bottom: 5px;">
+    <div class="container-fluid">
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img id="logo" src="images/logo.png" style="width:45px;height:45px;margin-right: 5px;margin-top: 2px;">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="dashboard.html" style="color: #fff;font-size: 18px">Dashboard</a></li>
+                <li><a href="portfolio.html" class="nav_selected" style="font-size: 18px;color: #fff">Portfolio &
+                    Transactions</a></li>
+                <li><a href="broker.html" style="font-size: 18px;color: #fff">Broker</a></li>
+                <li><a href="howtoplay.html" style="font-size: 18px;color: #fff">How To Play</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li style="font-size:20px;color: #FFF;margin-top: 13px;margin-left: 20px;"><i class="fa fa-inr"
+                                                                                              style="font-size: 20px;"></i><span
+                        id="amount" style="margin-left: 10px"></span></li>
+                <li><a style="font-size: 18px;color: #FFF"><span class="glyphicon glyphicon-user"
+                                                                 style="margin-left: 2px;"><span id="name"
+                                                                                                 style="margin-left: 10px"></span></span></a>
+                </li>
+                <li><a id="logout" style="font-size: 18px;color: #FFF"><span
+                        class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" style="padding: 10px;">
+            <div class="table_background_layout">
+                <p class="table_title">Portfolio</p>
+                <div class="table-responsive" style="box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.2);border-radius: 0px 0px 5px 5px;">
+                    <table id="table_portfolio" class=" col-sm-8 table text-center" style="padding: 0px;background: #FFF;margin: 0px;" data-min="5" data-max="50">
+                        <thead class="text-center">
+                        <tr style="background: #212121;color: #FFF;">
+                            <th style="text-align: center;">Company</th>
+                            <th style="text-align: center;">Quantity</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8" style="padding: 10px;">
+            <div class="table_background_layout">
+                <p class="table_title">Transactions</p>
+                <div class="table-responsive" style="box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.2);border-radius: 0px 0px 5px 5px;">
+                    <table id="table_transaction" class=" col-sm-8 table text-center"
+                           style="padding: 0px;background: #FFF;margin: 0px;" data-min="5" data-max="50">
+                        <thead class="text-center">
+                        <tr style="background: #212121;color: #FFF;">
+                            <th style="text-align: center;">Company</th>
+                            <th style="text-align: center;">Type</th>
+                            <th style="text-align: center;">Quantity</th>
+                            <th style="text-align: center;">Price</th>
+                            <th style="text-align: center;">Time</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+</body>
+</html>
