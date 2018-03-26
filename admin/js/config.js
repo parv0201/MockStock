@@ -1,4 +1,4 @@
-var rurl = "http://localhost:8000/";
+var rurl = "https://mockstockapi.udaan18.com:8000/";
 $(document).ready(function () {
     var token = localStorage.getItem("atoken");
     $("#logout").css("cursor", "pointer");
