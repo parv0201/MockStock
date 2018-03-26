@@ -1,4 +1,4 @@
-var rurl = "http://34.216.134.99:8080/";
+var rurl = "https://mockstockapi.udaan18.com:8000/";
 
 $(document).ready(function () {
     var token = localStorage.getItem("token");
