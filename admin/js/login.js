@@ -21,7 +21,7 @@ $(document).ready(function(){
         else{
             var d1 = {"user_id": user, "password": pass,"type": "admin"};
             $.ajax({
-                url: "http://localhost:8000/login",
+                url: "https://mockstockapi.udaan18.com:8000/login",
                 type: 'post',
                 data: JSON.stringify(d1),
                 dataType: 'json',
