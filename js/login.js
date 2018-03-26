@@ -11,7 +11,7 @@ $(document).ready(function () {
             var d1 = {"user_id": userid, "password": password};
 
             $.ajax({
-                url: "http://34.216.134.99:8080/login",
+                url: "https://mockstockapi.udaan18.com:8000/login",
                 type: 'post',
                 data: JSON.stringify(d1),
                 dataType: 'json',
